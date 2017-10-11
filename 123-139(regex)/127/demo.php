@@ -1,0 +1,50 @@
+<?php
+/*
+ * DEMO1²âÊÔÀà
+ * 
+ * */
+class demo1{
+	function add(){
+		
+	}
+	function del(){
+		
+	}
+}
+
+
+/*
+ * DEMO2²âÊÔÀà
+ * 
+ * */
+class demo2{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

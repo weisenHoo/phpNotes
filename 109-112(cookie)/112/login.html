@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1>会员登录</h1>
+		<form name="reg" action="112.php?m=user&a=login" method="post" onsubmit="return check()">
+			<table border="0">
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" name="uname" /></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="upwd" /></td>
+				</tr>
+				<tr>
+					<td>保存时间：</td>
+					<td><input type="radio" name="ctime" value="0" checked="checked" />不保存</td>
+					<td><input type="radio" name="ctime" value="3600" />一小时</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="登录" /></td>
+					<td><a href="112.php?m=user&a=reg_h">注册</a></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

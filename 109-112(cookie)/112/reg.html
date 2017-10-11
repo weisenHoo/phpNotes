@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title></title>
+		
+		<script type="text/javascript">
+			function check(){
+				if(document.reg.upwd.value != document.reg.upwd2.value){
+					alert("两次密码不一致");
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1>会员注册</h1>
+		<form name="reg" action="112.php?m=user&a=reg" method="post" onsubmit="return check()">
+			<table border="0">
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" name="uname" /></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="upwd" /></td>
+				</tr>
+				<tr>
+					<td>确认密码：</td>
+					<td><input type="password" name="upwd2" /></td>
+				</tr>
+				<tr>
+					<td>邮箱：</td>
+					<td><input type="text" name="email" /></td>
+				</tr>
+				<tr>
+					<td>QQ：</td>
+					<td><input type="text" name="qq" /></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="提交" /></td>
+					<td><a href="112.php?m=user&a=login_h">登录</a></td>
+				</tr>
+			</table>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<?php
+/* 
+ * ºó¶ÜÍøhttp://bbs.houdunwang.com 
+ * DEMO1²âÊÔÀà
+ * 
+ *  */ 
+class demo1{
+	function add(){
+		
+	}
+	function del(){
+		
+	}
+}
+
+
+/* 
+ * ºó¶ÜÍøhttp://bbs.houdunwang.com 
+ * DEMO2²âÊÔÀà
+ * 
+ *  */ 
+class demo2{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
